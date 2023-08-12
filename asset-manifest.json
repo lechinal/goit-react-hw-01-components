@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/lechinal/goit-react-hw-01-components/static/css/main.b3c08cc3.css",
+    "main.js": "/lechinal/goit-react-hw-01-components/static/js/main.907920e1.js",
+    "index.html": "/lechinal/goit-react-hw-01-components/index.html",
+    "main.b3c08cc3.css.map": "/lechinal/goit-react-hw-01-components/static/css/main.b3c08cc3.css.map",
+    "main.907920e1.js.map": "/lechinal/goit-react-hw-01-components/static/js/main.907920e1.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b3c08cc3.css",
+    "static/js/main.907920e1.js"
+  ]
+}
