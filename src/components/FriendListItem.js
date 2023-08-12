@@ -22,10 +22,10 @@ const Avatar = styled.img`
   margin-right: 10px;
 `;
 
-function FriendListItem({ avatar, name, isOnline }) {
+function FriendListItem({ avatar, name }) {
   return (
     <Item className="item">
-      <Status isOnline={isOnline} className="status" />
+      <Status />
       <Avatar className="avatar" src={avatar} alt="User avatar" />
       <p className="name">{name}</p>
     </Item>
