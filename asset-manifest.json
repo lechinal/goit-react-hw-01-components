@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/lechinal/goit-react-hw-01-components/static/css/main.b3c08cc3.css",
-    "main.js": "/lechinal/goit-react-hw-01-components/static/js/main.88826bd0.js",
+    "main.css": "/lechinal/goit-react-hw-01-components/static/css/main.81c6f85d.css",
+    "main.js": "/lechinal/goit-react-hw-01-components/static/js/main.9dbe0e32.js",
     "index.html": "/lechinal/goit-react-hw-01-components/index.html",
-    "main.b3c08cc3.css.map": "/lechinal/goit-react-hw-01-components/static/css/main.b3c08cc3.css.map",
-    "main.88826bd0.js.map": "/lechinal/goit-react-hw-01-components/static/js/main.88826bd0.js.map"
+    "main.81c6f85d.css.map": "/lechinal/goit-react-hw-01-components/static/css/main.81c6f85d.css.map",
+    "main.9dbe0e32.js.map": "/lechinal/goit-react-hw-01-components/static/js/main.9dbe0e32.js.map"
   },
   "entrypoints": [
-    "static/css/main.b3c08cc3.css",
-    "static/js/main.88826bd0.js"
+    "static/css/main.81c6f85d.css",
+    "static/js/main.9dbe0e32.js"
   ]
 }
