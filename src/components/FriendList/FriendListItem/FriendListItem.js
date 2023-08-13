@@ -1,5 +1,6 @@
 import React from 'react';
 import styled from 'styled-components';
+// import PropTypes from '@styled-system/prop-types';
 import PropTypes from 'prop-types';
 import styles from './FriendListItem.module.css';
 
@@ -28,15 +29,18 @@ const Name = styled.p`
   margin: 0;
 `;
 
-function FriendListItem({ avatar, name, isOnline }) {
+const FriendListItem = ({ avatar, name, isOnline }) => {
   return (
-    <ListItem className={styles.item}>
-      <Status className={styles.status} isOnline={isOnline} />
-      <Avatar className={styles.avatar} src={avatar} alt="User avatar" />
-      <Name className={styles.name}>{name}</Name>
-    </ListItem>
+    <li className={styles.item}>
+      <span
+        className={styles.status}
+        style={{ backgroundColor: isOnline ? 'green' : 'red' }}
+      />
+      <img className={styles.avatar} src={avatar} alt="User avatar" />
+      <p className={styles.name}>{name}</p>
+    </li>
   );
-}
+};
 
 FriendListItem.propTypes = {
   avatar: PropTypes.string.isRequired,
