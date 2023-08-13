@@ -1,33 +1,33 @@
 import React from 'react';
-import styled from 'styled-components';
+// import styled from 'styled-components';
 // import PropTypes from '@styled-system/prop-types';
 import PropTypes from 'prop-types';
 import styles from './FriendListItem.module.css';
 
-const ListItem = styled.li`
-  display: flex;
-  align-items: center;
-  margin-bottom: 10px;
-`;
+// const ListItem = styled.li`
+//   display: flex;
+//   align-items: center;
+//   margin-bottom: 10px;
+// `;
 
-const Status = styled.span`
-  width: 10px;
-  height: 10px;
-  border-radius: 50%;
-  background-color: ${props => (props.isOnline ? 'green' : 'red')};
-  margin-right: 10px;
-`;
+// const Status = styled.span`
+//   width: 10px;
+//   height: 10px;
+//   border-radius: 50%;
+//   background-color: ${props => (props.isOnline ? 'green' : 'red')};
+//   margin-right: 10px;
+// `;
 
-const Avatar = styled.img`
-  width: 48px;
-  height: 48px;
-  border-radius: 50%;
-  margin-right: 10px;
-`;
+// const Avatar = styled.img`
+//   width: 48px;
+//   height: 48px;
+//   border-radius: 50%;
+//   margin-right: 10px;
+// `;
 
-const Name = styled.p`
-  margin: 0;
-`;
+// const Name = styled.p`
+//   margin: 0;
+// `;
 
 const FriendListItem = ({ avatar, name, isOnline }) => {
   return (
